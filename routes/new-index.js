@@ -3,7 +3,7 @@ var express = require('express');
 var router = express.Router();
 
 var MongoClient = require('mongodb').MongoClient;
-var url = "mongodb+srv://<username>:<password>@<cluster>-vgz77.azure.mongodb.net/test?retryWrites=true&w=majority";
+var url = "mongodb+srv://Ritesh_k:rk1234@expense-tracker-umksm.mongodb.net/test?retryWrites=true&w=majority";
 
 
 router.get('/', (req, res, next) => {
